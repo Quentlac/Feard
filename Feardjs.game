@@ -1,0 +1,16 @@
+void setup(){
+  size(600, 600);
+
+  println(displayWidth + " " + displayHeight);
+
+}
+
+void draw(){
+  background(0);
+
+  fill(255, 0, 0);
+  ellipse(width / 2, height/2, 50, 50);
+
+
+
+}
